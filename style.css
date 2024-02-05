@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 }
 :root {
-	--success-color: green;
+	--success-color: rgb(43, 217, 43);
 	--error-color: red;
 }
 body {
