@@ -58,29 +58,3 @@ form.addEventListener('submit', function (e) {
 	checkEmail(email);
 	checkPasswordsMatch(password, passwordConfirm);
 });
-
-// form.addEventListener('click', function (e) {
-// 	e.preventDefault();
-// 	if (username.value === '') {
-// 		showError(username, 'Username is required');
-// 	} else {
-// 		showSuccess(username);
-// 	}
-// 	if (email.value === '') {
-// 		showError(email, 'Email is required');
-// 	} else if (!isValidEmail(email.value)) {
-// 		showError(email, 'Email is not valid');
-// 	} else {
-// 		showSuccess(email);
-// 	}
-// 	if (password.value === '') {
-// 		showError(password, 'Password is required');
-// 	} else {
-// 		showSuccess(password);
-// 	}
-// 	if (passwordConfirm.value === '') {
-// 		showError(passwordConfirm, 'Password is required');
-// 	} else {
-// 		showSuccess(passwordConfirm);
-// 	}
-// });
